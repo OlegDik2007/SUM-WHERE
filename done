@@ -1,0 +1,6 @@
+SELECT
+  SUM(price) as order_price
+FROM
+  products
+WHERE
+  name in ('энергетический напиток', 'чипсы', 'сухарики');
